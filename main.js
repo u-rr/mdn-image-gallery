@@ -21,7 +21,8 @@ for(let i =0; i <= images.length - 1; i++) {
     thumbBar.appendChild(newImage);
 
     newImage.onclick = function (){
-        console.log("hi");
+        displayedImage.setAttribute('src', image[i]);
+        // console.log("hi");
     };
     // newImage.setAttribute('onclick', changeImage());
 };
